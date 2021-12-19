@@ -34,8 +34,7 @@ func generate() {
   for _ in 1...(Int(arguments[0]) ?? defaultSize) {
     let character = get()
     password += character
-  }
-      
+  }   
   print("\n", password, "\n")
 }
 
